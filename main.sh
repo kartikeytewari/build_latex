@@ -20,7 +20,7 @@ function build_latex()
 			
 			# for opening in google chrome
 			-o|--open)
-			chrome ${1}.pdf
+			google-chrome ${1}.pdf
 			shift
 			;;
 	
@@ -38,7 +38,7 @@ function build_latex()
 
 			# for printing manual
 			-h|--help) 
-			less manual.txt
+			less ~/build_latex/manual.txt
 			shift
 		esac
 	done
