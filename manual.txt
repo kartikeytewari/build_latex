@@ -1,0 +1,38 @@
+Build_latex command is used for building latex files along with bibliography (if present)
+The raw files .tex and .aux should be of the name that is passed.
+The processed files such as .log will be genrated by the same name
+
+
+    ---------------------------------------------------------------------------
+    |Developed by: Kartikey Tewari                                            |
+    |Licensed under GNU GENERAL PUBLIC LICENSE - Version 3                    |
+    |                                                                         |
+    |Under development.                                                       |
+    |For more information see www.kartikeytewari.github.io/blog/build_latex   |
+    |For feedback/suggestions contact developer at: kartikeya30@gmail.com     |
+    ---------------------------------------------------------------------------
+
+
+Dependencies:
+    pdf_latex
+    bibtex
+    Google Chrome
+    apt package manager
+    less text viewer
+
+Flags:
+-bs | --build_small
+            just builds the latex file
+
+-bl | --build_large
+            builds the latex file along with bibliography
+            if .bib file is not found then it is ignored
+
+-o | --open
+            This opens the built pdf in chrome
+
+-f | --find 
+            This finds which apt to install for missing .sty dependeny file
+
+-h | --help
+             Prints this manual page
