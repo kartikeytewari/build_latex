@@ -14,7 +14,7 @@ The processed files such as .log will be genrated by the same name
 
 
 Dependencies:
-    pdf_latex
+    pdflatex
     bibtex
     Google Chrome
     apt package manager
@@ -37,6 +37,8 @@ Flags:
 -f  | --find 
         This finds which apt to install for missing .sty dependeny package
         usage: build_latex -f algorithm2e  # finds the apt where algorithm2e-package is present
+        If expected apt are not found, kindly renew the cache by the command
+        sudo apt-file update
 
 -i  | --install
         This install the apt necessary for building package
