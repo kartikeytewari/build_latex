@@ -22,17 +22,26 @@ Dependencies:
 
 Flags:
 -bs | --build_small
-            just builds the latex file
+        just builds the latex file
+        usage: build_latex paper -bs # builds the paper.tex ignoring paper.aux
 
 -bl | --build_large
-            builds the latex file along with bibliography
-            if .bib file is not found then it is ignored
+        builds the latex file along with bibliography
+        if .bib file is not found then it is ignored
+        usage: build_latex paper -bl # builds the paper.tex with paper.aux
 
--o | --open
-            This opens the built pdf in chrome
+-o  | --open
+        This opens the built pdf in chrome
+        usage: build_latex paper -o # opens paper in Google Chrome
 
--f | --find 
-            This finds which apt to install for missing .sty dependeny file
+-f  | --find 
+        This finds which apt to install for missing .sty dependeny package
+        usage: build_latex -f algorithm2e  # finds the apt where algorithm2e-package is present
 
--h | --help
-             Prints this manual page
+-i  | --install
+        This install the apt necessary for building package
+        usage: build_latex texlive-science # install texlive-science the apt necessary for algorithm2e-package
+
+-h  | --help
+        Prints this manual page
+        usage: build_latex -h
