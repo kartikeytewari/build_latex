@@ -18,9 +18,9 @@ function build_latex()
 			shift
 			;;
 			
-			# for opening in google chrome
+			# for opening pdf in preferred pdf viewer
 			-o|--open)
-			google-chrome ${1}.pdf
+			xdg-open ${1}.pdf
 			shift
 			;;
 	

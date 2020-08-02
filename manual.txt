@@ -16,7 +16,7 @@ The processed files such as .log will be genrated by the same name
 Dependencies:
     pdflatex
     bibtex
-    Google Chrome
+    A PDF viewer
     apt package manager
     less text viewer
 
@@ -31,8 +31,8 @@ Flags:
         usage: build_latex paper -bl # builds the paper.tex with paper.aux
 
 -o  | --open
-        This opens the built pdf in chrome
-        usage: build_latex paper -o # opens paper in Google Chrome
+        This opens the built pdf in preferred PDF viewer
+        usage: build_latex paper -o # opens paper.pdf in PDF viewer
 
 -f  | --find 
         This finds which apt to install for missing .sty dependeny package
