@@ -21,6 +21,7 @@ Dependencies:
     less text viewer
 
 Flags:
+Basic Flags
 -bs | --build_small
         just builds the latex file
         usage: build_latex paper -bs # builds the paper.tex ignoring paper.aux
@@ -47,3 +48,29 @@ Flags:
 -h  | --help
         Prints this manual page
         usage: build_latex -h
+
+File Populating Flags
+-p_article | --populate_article
+        Generates a tex file with the name supplied.
+        Then the file is populated using standard article template
+        usage: "build_latex paper -p_article" create a file as paper.tex and populates it with statndard template for a article
+
+-p_beamer | --populate_beamer
+        Generates a tex file with the name supplied.
+        Then the file is populated using standard beamer template
+        usage: "build_latex paper -p_beamer" create a file as paper.tex and populates it with statndard template for a beamer
+
+-p_letter | --populate_letter
+        Generates a tex file with the name supplied.
+        Then the file is populated using standard letter template
+        usage: "build_latex paper -p_letter" create a file as paper.tex and populates it with statndard template for a letter
+
+-p_cv | --populate_cv
+        Generates a tex file with the name supplied.
+        Then the file is populated using standard cv template
+        usage: "build_latex paper -p_cv" create a file as paper.tex and populates it with statndard template for a Curriculum Vitae (CV).
+
+-p_report | --populate_report
+        Generates a tex file with the name supplied.
+        Then the file is populated using standard report template
+        usage: "build_latex paper -p_report" create a file as paper.tex and populates it with statndard template for a report
