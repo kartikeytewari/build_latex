@@ -8,5 +8,5 @@ For installation:
     <li> Run installer.sh </li>
 </ol>
 
-For more information visit: https://kartikeytewari.github.io/blog/build_latex <br>
+For more information visit: https://kartikeytewari.github.io/build_latex <br>
 For feedback/suggestions e-mail to: kartikeya30@gmail.com
