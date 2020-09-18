@@ -8,7 +8,7 @@ The processed files such as .log will be genrated by the same name
     |Licensed under GNU GENERAL PUBLIC LICENSE - Version 3                    |
     |                                                                         |
     |Under development.                                                       |
-    |For more information see www.kartikeytewari.github.io/blog/build_latex   |
+    |For more information see www.kartikeytewari.github.io/build_latex        |
     |For feedback/suggestions contact developer at: kartikeya30@gmail.com     |
     ---------------------------------------------------------------------------
 

@@ -12,5 +12,5 @@ echo "" >> ~/.bashrc
 echo "#configuration for build_latex CLI-tool" >> ~/.bashrc
 echo "source ~/build_latex/main.sh" >> ~/.bashrc
 
-echo "For more information visit: www.kartikeytewari.github.io/blog/build_latex"
+echo "For more information visit: www.kartikeytewari.github.io/build_latex"
 cd -
